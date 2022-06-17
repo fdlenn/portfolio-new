@@ -27,25 +27,61 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="images/logo.png" class="logo" alt="" />
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="active"><a href="/about.html">About</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-4">Contact Me</h1>
-        <h2 class="mb-4">Get in touch!</h2>
-        <h3>Email</h3>
-        <p><a href="mailto:lauradfenn@gmail.com">lauradfenn@gmail.com</a></p>
-        <h3>LinkedIn</h3>
-        <p>
-          <a href="https://www.linkedin.com/in/laura-d-fenn/" target="_blank"
-            >View my profile</a
-          >
-        </p>
-        <h3>GitHub</h3>
-        <p>
-          <a href="https://github.com/fdlenn" target="_blank"
-            >View my dashboard</a
-          >
-        </p>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content">
+            <h1 class="mb-4">Contact Me</h1>
+            <h2 class="mb-4">I'd love to hear from you!</h2>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="mailto:lauradfenn@gmail.com" target="_blank" class="btn btn-branding">Contact Me</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="images/headshot.jpg"
+            class="img-fluid mt-5 p-5 rounded-circle"
+            alt="headshot of Laura Fenn"
+          />
+        </div>
       </div>
+    </div>
+    <div class="contact-container container">
+           <footer>
+      
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="mailto:lauradfenn@gmail.com" target="_blank"
+            ><i class="fa-solid fa-envelope"></i></i
+          ></a>
+          <a href="https://www.linkedin.com/in/laura-d-fenn/" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/fdlenn" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://twitter.com/FDLenn" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
