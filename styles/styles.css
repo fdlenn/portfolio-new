@@ -74,6 +74,24 @@ p {
   font-size: 18px;
 }
 
+.contact h1 {
+  font-size: 64px;
+}
+
+.contact h2 {
+  font-size: 24px;
+}
+
+.contact h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
