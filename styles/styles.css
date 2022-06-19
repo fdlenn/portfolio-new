@@ -115,6 +115,18 @@ p {
   max-width: 150px;
 }
 
+.certificates a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-family: var(--default-font-family);
+}
+
+.certificates a:hover {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 footer {
   margin: 60px 0;
 }
