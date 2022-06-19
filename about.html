@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Laura is a front-end developer based in the UK."
+      content="Laura is a front-end developer based in the UK"
     />
     <link
       rel="stylesheet"
@@ -24,18 +24,25 @@
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Front-end Developer - Laura Fenn</title>
+    <title>About Laura - Laura Fenn</title>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo" alt="" />
+        <img
+          src="images/logo.png"
+          class="logo"
+          alt="site logo"
+          title="headshot"
+        />
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="homepage">Home</a></li>
+          <li class="active" title="about laura">
+            <a href="/about.html">About</a>
+          </li>
+          <li><a href="/work.html" title="laura's work">Work</a></li>
+          <li><a href="/contact.html" title="contact laura">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -48,12 +55,12 @@
             <p class="mb-4 text-muted">
               My name is Laura and I'm a new front-end developer based in
               Folkestone, UK. I've been learning to code with SheCodes since
-              2021. I am an Internal Communications Specialist by day and wanted
+              2021. I'm an Internal Communications Specialist by day and wanted
               to learn a new skill that could also help me develop in my current
               role, as the majority of communication channels I work with are
               web-based.
             </p>
-            <a href="/work.html" class="btn btn-branding">View my work</a>
+            <a href="/work.html" class="btn btn-branding">Work</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -67,31 +74,57 @@
     </div>
     <div class="contact-container container">
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div
+          class="contact-box justify-content-between mb-5 d-none d-md-flex rounded"
+        >
           <div>
-            <h3>Work Enquiry</h3>
-            <p class="text-muted">Get in touch; I'd love to hear from you!</p>
+            <h3>Enquiries</h3>
+            <p class="text-muted">
+              Please get in touch; I'd love to hear from you!
+            </p>
           </div>
           <div>
-            <a href="mailto:lauradfenn:gmail.com" class="btn btn-branding mt-2"
-              >Contact Me</a
+            <a href="mailto:lauradfenn@gmail.com" class="btn btn-branding mt-2"
+              >Contact</a
             >
           </div>
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="mailto:lauradfenn@gmail.com" target="_blank"
+          <a
+            href="mailto:lauradfenn@gmail.com"
+            target="_blank"
+            alt="mail icon"
+            title="Email"
             ><i class="fa-solid fa-envelope"></i
           ></a>
-          <a href="https://www.linkedin.com/in/laura-d-fenn/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/laura-d-fenn/"
+            target="_blank"
+            alt="linkedin icon"
+            title="LinkedIn"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/fdlenn" target="_blank"
+          <a
+            href="https://github.com/fdlenn"
+            target="_blank"
+            alt="github icon"
+            title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://twitter.com/FDLenn" target="_blank"
+          <a
+            href="https://twitter.com/FDLenn"
+            target="_blank"
+            alt="twitter icon"
+            title="Twitter"
             ><i class="fa-brands fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center">
+          This site was coded by Laura Fenn and is
+          <a href="https://github.com/fdlenn/portfolio-new.git" target="_blank"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
   </body>

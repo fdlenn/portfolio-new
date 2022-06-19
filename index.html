@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Laura is a front-end developer based in the UK."
+      content="Laura is a front-end developer based in the UK"
     />
     <link
       rel="stylesheet"
@@ -30,12 +30,12 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo" alt="website logo" />
+        <img src="images/logo.png" class="logo" alt="site logo" />
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="homepage">Home</a></li>
+          <li><a href="/about.html" title="about laura">About</a></li>
+          <li><a href="/work.html" title="laura's work">Work</a></li>
+          <li><a href="/contact.html" title="contact laura">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -44,24 +44,27 @@
       <div>
         <h2 class="mb-5">Front-end developer based in Folkestone, UK.</h2>
       </div>
-      <a href="work.html" class="btn btn-branding">View my work</a>
+      <a href="work.html" class="btn btn-branding">Work</a>
     </div>
-    <p class="text-center m-5">
-      Featured projects I've worked on whilst learning to code with SheCodes:
-    </p>
+    <p class="text-center m-5">Featured projects I've been working on:</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/pasta.jpg" class="img-fluid" alt="pasta" />
+          <img
+            src="images/pasta.jpg"
+            class="img-fluid rounded"
+            alt="pasta project preview"
+            title="project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">Pasta project</h2>
             <p class="mb-5 text-muted">
-              Mastering the basics of HTML, CSS and JS on the SheCodes Basics
-              workshop.
+              Mastering the basics of HTML, CSS and JS. Real-life project on the
+              Basics Workshop with SheCodes.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -70,46 +73,94 @@
           <div class="project-description">
             <h2 class="mb-5">Weather project</h2>
             <p class="mb-5 text-muted">
-              A real-time weather app using API. Built throughout the SheCodes
-              Plus workshop.
+              A real-time weather app using API. Real-life project on the Plus
+              Workshop with SheCodes.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/weather-final.jpg"
-            class="img-fluid"
-            alt="weather app"
+            class="img-fluid rounded"
+            alt="weather app preview"
+            title="project preview"
           />
         </div>
       </div>
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/portfolio.png"
+            class="img-fluid rounded"
+            alt="pasta project preview"
+            title="project preview"
+          />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Portfolio project</h2>
+            <p class="mb-5 text-muted">
+              Building an online portfolio to demonstrate my abilities to
+              current and future employers. Real-life project on the Responsive
+              Workshop with SheCodes.
+            </p>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
+          </div>
+        </div>
+      </div>
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div
+          class="contact-box justify-content-between mb-5 d-none d-md-flex rounded"
+        >
           <div class="enquiry">
-            <h3>Work Enquiry</h3>
-            <p class="text-muted">Get in touch; I'd love to hear from you!</p>
+            <h3>Enquiries</h3>
+            <p class="text-muted">
+              Please get in touch; I'd love to hear from you!
+            </p>
           </div>
           <div>
-            <a href="mailto:lauradfenn:gmail.com" class="btn btn-branding mt-2"
-              >Contact Me</a
+            <a href="mailto:lauradfenn@gmail.com" class="btn btn-branding mt-2"
+              >Contact</a
             >
           </div>
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="mailto:lauradfenn@gmail.com" target="_blank"
+          <a
+            href="mailto:lauradfenn@gmail.com"
+            target="_blank"
+            alt="mail icon"
+            title="Email"
             ><i class="fa-solid fa-envelope"></i
           ></a>
-          <a href="https://www.linkedin.com/in/laura-d-fenn/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/laura-d-fenn/"
+            target="_blank"
+            alt="linkedin icon"
+            title="LinkedIn"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
-          <a href="https://github.com/fdlenn" target="_blank"
+          <a
+            href="https://github.com/fdlenn"
+            target="_blank"
+            alt="github icon"
+            title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://twitter.com/FDLenn" target="_blank"
+          <a
+            href="https://twitter.com/FDLenn"
+            target="_blank"
+            alt="twitter icon"
+            title="Twitter"
             ><i class="fa-brands fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center">
+          This site was coded by Laura Fenn and is
+          <a href="https://github.com/fdlenn/portfolio-new.git" target="_blank"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
   </body>
